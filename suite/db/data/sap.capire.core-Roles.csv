@@ -1,0 +1,51 @@
+ID,code,name,Description
+990e8400-e29b-41d4-a716-446655440001,ADMIN,Administrator,System administrator with full access
+990e8400-e29b-41d4-a716-446655440002,SUPER_ADMIN,Super Administrator,Platform-wide administrative access
+990e8400-e29b-41d4-a716-446655440003,HR_ADMIN,HR Admin,Manages HR operations and employee data
+990e8400-e29b-41d4-a716-446655440004,HR_MANAGER,HR Manager,Oversees HR teams and policies
+990e8400-e29b-41d4-a716-446655440005,HR_EXEC,HR Executive,Handles recruitment and onboarding
+990e8400-e29b-41d4-a716-446655440006,FIN_ADMIN,Finance Admin,Manages financial configurations
+990e8400-e29b-41d4-a716-446655440007,FIN_MANAGER,Finance Manager,Oversees finance department activities
+990e8400-e29b-41d4-a716-446655440008,FIN_EXEC,Finance Executive,Handles accounting and payments
+990e8400-e29b-41d4-a716-446655440009,IT_ADMIN,IT Admin,Manages IT systems and infrastructure
+990e8400-e29b-41d4-a716-446655440010,IT_MANAGER,IT Manager,Oversees IT operations
+990e8400-e29b-41d4-a716-446655440011,IT_SUPPORT,IT Support,Provides technical support
+990e8400-e29b-41d4-a716-446655440012,SALES_ADMIN,Sales Admin,Manages sales configurations
+990e8400-e29b-41d4-a716-446655440013,SALES_MANAGER,Sales Manager,Leads sales teams
+990e8400-e29b-41d4-a716-446655440014,SALES_EXEC,Sales Executive,Handles sales activities
+990e8400-e29b-41d4-a716-446655440015,MARKETING_ADMIN,Marketing Admin,Manages marketing campaigns
+990e8400-e29b-41d4-a716-446655440016,MARKETING_MANAGER,Marketing Manager,Leads marketing strategies
+990e8400-e29b-41d4-a716-446655440017,MARKETING_EXEC,Marketing Executive,Executes marketing plans
+990e8400-e29b-41d4-a716-446655440018,OPS_ADMIN,Operations Admin,Manages operational settings
+990e8400-e29b-41d4-a716-446655440019,OPS_MANAGER,Operations Manager,Oversees operations team
+990e8400-e29b-41d4-a716-446655440020,OPS_EXEC,Operations Executive,Handles daily operations
+990e8400-e29b-41d4-a716-446655440021,PROC_ADMIN,Procurement Admin,Manages procurement processes
+990e8400-e29b-41d4-a716-446655440022,PROC_MANAGER,Procurement Manager,Oversees procurement team
+990e8400-e29b-41d4-a716-446655440023,PROC_EXEC,Procurement Executive,Handles vendor sourcing
+990e8400-e29b-41d4-a716-446655440024,LEGAL_ADMIN,Legal Admin,Manages legal documentation
+990e8400-e29b-41d4-a716-446655440025,LEGAL_MANAGER,Legal Manager,Oversees legal operations
+990e8400-e29b-41d4-a716-446655440026,LEGAL_EXEC,Legal Executive,Handles contracts and compliance
+990e8400-e29b-41d4-a716-446655440027,PRODUCT_ADMIN,Product Admin,Manages product configurations
+990e8400-e29b-41d4-a716-446655440028,PRODUCT_MANAGER,Product Manager,Leads product strategy
+990e8400-e29b-41d4-a716-446655440029,PRODUCT_OWNER,Product Owner,Owns product backlog and roadmap
+990e8400-e29b-41d4-a716-446655440030,QA_ADMIN,QA Admin,Manages quality assurance processes
+990e8400-e29b-41d4-a716-446655440031,QA_MANAGER,QA Manager,Leads QA team
+990e8400-e29b-41d4-a716-446655440032,QA_ENGINEER,QA Engineer,Tests and validates applications
+990e8400-e29b-41d4-a716-446655440033,DEV_ADMIN,Development Admin,Manages development environment
+990e8400-e29b-41d4-a716-446655440034,DEV_LEAD,Development Lead,Leads development team
+990e8400-e29b-41d4-a716-446655440035,DEV_ENGINEER,Developer,Builds and maintains applications
+990e8400-e29b-41d4-a716-446655440036,SUPPORT_ADMIN,Support Admin,Manages support operations
+990e8400-e29b-41d4-a716-446655440037,SUPPORT_MANAGER,Support Manager,Leads support team
+990e8400-e29b-41d4-a716-446655440038,SUPPORT_AGENT,Support Agent,Handles customer issues
+990e8400-e29b-41d4-a716-446655440039,ANALYST,Business Analyst,Analyzes business requirements
+990e8400-e29b-41d4-a716-446655440040,DATA_ANALYST,Data Analyst,Analyzes and reports data insights
+990e8400-e29b-41d4-a716-446655440041,REPORT_VIEWER,Report Viewer,Read-only access to reports
+990e8400-e29b-41d4-a716-446655440042,AUDITOR,Auditor,Reviews logs and compliance
+990e8400-e29b-41d4-a716-446655440043,APPROVER,Approver,Approves workflows and requests
+990e8400-e29b-41d4-a716-446655440044,REQUESTER,Requester,Creates and submits requests
+990e8400-e29b-41d4-a716-446655440045,EMPLOYEE,Employee,Standard employee access
+990e8400-e29b-41d4-a716-446655440046,CONTRACTOR,Contractor,Limited access for contractors
+990e8400-e29b-41d4-a716-446655440047,GUEST,Guest,Minimal read-only access
+990e8400-e29b-41d4-a716-446655440048,SECURITY_ADMIN,Security Admin,Manages security and access control
+990e8400-e29b-41d4-a716-446655440049,COMPLIANCE_OFFICER,Compliance Officer,Ensures regulatory compliance
+990e8400-e29b-41d4-a716-446655440050,SYSTEM_MONITOR,System Monitor,Monitors system health and logs

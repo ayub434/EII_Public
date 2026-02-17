@@ -1,0 +1,11 @@
+code,locale,name,descr
+L,ko,low,low
+L,hu,low,low
+M,en,medium,medium
+M,de,medium,medium
+H,fr,high,high
+H,es,high,high
+U,it,urgent,urgent
+C,pt,critical,critical
+N,ru,normal,normal
+O,ja,optional,optional

@@ -1,0 +1,21 @@
+ID,customer_ID,title,urgency_code,status_code,createdAt,createdBy,modifiedAt,modifiedBy
+1,CUST1001,"Login issue",HIGH,OPEN,2024-01-05T09:10:00Z,user1,2024-01-05T09:10:00Z,user1
+2,CUST1002,"Password reset request",MEDIUM,IN_PROGRESS,2024-01-06T10:25:00Z,admin,2024-01-06T11:30:00Z,admin
+3,CUST1003,"Unable to access dashboard",HIGH,OPEN,2024-01-07T14:40:00Z,user2,2024-01-07T15:20:00Z,user2
+4,CUST1004,"Billing discrepancy",LOW,RESOLVED,2024-01-08T08:55:00Z,system,2024-01-09T12:10:00Z,system
+5,CUST1005,"Account verification pending",MEDIUM,IN_PROGRESS,2024-01-09T16:15:00Z,user3,2024-01-10T10:45:00Z,user3
+6,CUST1006,"Profile update not saving",LOW,OPEN,2024-01-10T11:05:00Z,user1,2024-01-10T11:05:00Z,user1
+7,CUST1007,"Email notifications delayed",MEDIUM,RESOLVED,2024-01-11T13:30:00Z,admin,2024-01-12T09:20:00Z,admin
+8,CUST1008,"Payment gateway timeout",HIGH,IN_PROGRESS,2024-01-12T15:50:00Z,system,2024-01-12T17:10:00Z,system
+9,CUST1009,"Data mismatch in report",LOW,CLOSED,2024-01-13T09:45:00Z,user2,2024-01-14T11:00:00Z,user2
+10,CUST1010,"Mobile app crash",HIGH,OPEN,2024-01-14T18:05:00Z,user1,2024-01-14T18:05:00Z,user1
+11,CUST1011,"Change contact details",LOW,RESOLVED,2024-01-15T08:20:00Z,admin,2024-01-15T12:30:00Z,admin
+12,CUST1012,"Service request follow-up",MEDIUM,IN_PROGRESS,2024-01-16T10:40:00Z,user3,2024-01-16T14:55:00Z,user3
+13,CUST1013,"Access rights issue",HIGH,RESOLVED,2024-01-17T11:35:00Z,system,2024-01-18T09:15:00Z,system
+14,CUST1014,"Invoice download failed",MEDIUM,OPEN,2024-01-18T16:10:00Z,user2,2024-01-18T16:10:00Z,user2
+15,CUST1015,"Two-factor authentication error",HIGH,IN_PROGRESS,2024-01-19T12:55:00Z,admin,2024-01-19T15:40:00Z,admin
+16,CUST1016,"Subscription renewal issue",MEDIUM,RESOLVED,2024-01-20T09:30:00Z,user1,2024-01-21T10:20:00Z,user1
+17,CUST1017,"Incorrect profile picture",LOW,CLOSED,2024-01-21T14:45:00Z,system,2024-01-22T08:35:00Z,system
+18,CUST1018,"Slow page loading",MEDIUM,OPEN,2024-01-22T11:15:00Z,user3,2024-01-22T11:15:00Z,user3
+19,CUST1019,"Request for data export",LOW,IN_PROGRESS,2024-01-23T10:05:00Z,admin,2024-01-23T13:50:00Z,admin
+20,CUST1020,"Account closure request",HIGH,CLOSED,2024-01-24T17:40:00Z,user2,2024-01-25T09:10:00Z,user2

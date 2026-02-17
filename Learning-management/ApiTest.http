@@ -1,0 +1,5 @@
+Get http://localhost:4004/odata/v4/admin/Certifications HTTP/1.1
+Accept: application/json
+
+###
+Get http://localhost:4004/odata/v4/admin/LearningRoadmaps HTTP/1.1

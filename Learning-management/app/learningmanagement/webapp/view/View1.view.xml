@@ -1,0 +1,62 @@
+<mvc:View
+    controllerName="ns.learning.learningmanagement.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+    >
+        <Table
+            id="LearningManagementTable"
+            footerText="Learning Management"
+            visible="true"
+            items="{ path:'/TrainingModules' }"
+        >
+            <columns>
+                <Column
+                    id="1"
+                    width="200px"
+                    hAlign="Center"
+                >
+                    <Text
+                        id="a"
+                        text="TITLE"
+                    />
+                </Column>
+                <Column
+                    id="2"
+                    width="200px"
+                    hAlign="Center"
+                >
+                    <Text
+                        id="b"
+                        text="DESCRIPTION"
+                    />
+                </Column>
+                <Column
+                    id="3"
+                    width="200px"
+                    hAlign="Center"
+                >
+                    <Text
+                        id="c"
+                        text="PROVIDER"
+                    />
+                </Column>
+            </columns>
+            <items>
+            <ColumnListItem id="01">
+            <cells>
+                <Text text="{title}"></Text>
+                <Text text="{description}"></Text>
+                <Text text="{provider}"></Text>
+                
+               
+            </cells>
+            </ColumnListItem>
+            </items>
+ 
+        </Table>
+    </Page>
+</mvc:View>

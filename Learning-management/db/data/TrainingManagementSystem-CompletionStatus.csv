@@ -1,0 +1,11 @@
+code,name,descr
+I,in_Process,in_Process
+C,completed,completed
+P,pending,pending
+R,rejected,rejected
+A,approved,approved
+F,failed,failed
+S,submitted,submitted
+D,draft,draft
+W,withdrawn,withdrawn
+H,on_hold,on_hold

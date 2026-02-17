@@ -1,0 +1,73 @@
+POST http://localhost:4004/odata/v4/core/Users HTTP/1.1
+Content-Type: application/json
+
+{ 
+    "email": "invalid@Email"
+ }
+###
+PATCH  http://localhost:4004/odata/v4/core/Users('880e8400-e29b-41d4-a716-446655440001') HTTP/1.1
+Content-Type: application/json
+
+{
+    "active":false
+}
+
+###
+DELETE http://localhost:4004/odata/v4/core/Roles('990e8400-e29b-41d4-a716-446655440001') HTTP/1.1
+
+
+###
+DELETE http://localhost:4004/odata/v4/core/Departments('660e8400-e29b-41d4-a716-446655440006') HTTP/1.1
+
+
+###
+POST http://localhost:4004/odata/v4/core/Approvals HTTP/1.1
+Content-Type: application/json
+
+{
+    "referenceID":"Invalid_ID",
+    "approver_ID":"880e8400-e29b-41d4-a716-446655440002"
+}
+
+
+
+
+
+###
+DELETE  http://localhost:4004/odata/v4/core/Approvals(ID='ee0e8400-e29b-41d4-a716-446655440001') HTTP/1.1
+
+
+
+###
+POST http://localhost:4004/odata/v4/core/Departments HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Finance"
+}
+###
+# Post http://localhost:4004/odata/v4/core/Users HTTP/1.1
+# Content-Type: application/json
+
+# {
+#   "userName": "testuser",
+#   "email": "user51@company50.com",
+#   "active": true
+# }
+# ###
+# # POST http://localhost:4004/odata/v4/Core/UserRoles HTTP/1.2
+# # Content-Type: application/json
+
+# # {
+# #   "user_ID": "U002",
+# #   "role_ID": "R001"
+# # }
+
+# ###
+# PATCH http://localhost:4004/odata/v4/core/Users('U001') HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "ID":"550e8400-e29b-41d4-a716-446655440000",
+#     "active":false
+# }

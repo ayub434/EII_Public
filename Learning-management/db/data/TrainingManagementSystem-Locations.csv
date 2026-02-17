@@ -1,0 +1,10 @@
+ID,code,name,country,createdAt,createdBy,modifiedAt,modifiedBy
+25701009-5941-4218-bad0-1116072a89ae,NYC,New York,USA,2001-07-01T00:00:00.000Z,createdBy.fav0x@example.com,2009-09-04T00:00:00.000Z,modifiedBy.fav0x@example.com
+25701010-c45f-46b2-ac48-ebf7fe0cd933,LAX,Los Angeles,USA,2022-07-25T00:00:00.000Z,createdBy.fav0y@example.org,2000-09-10T00:00:00.000Z,modifiedBy.fav0y@example.com
+3983020f-aa32-440f-ac33-fa1a830d1933,CHI,Chicago,USA,2001-07-02T00:00:00.000Z,createdBy.fav0z@example.com,2009-09-05T00:00:00.000Z,modifiedBy.fav0z@example.com
+3983020f-aa32-440f-ac33-fa1a830d1934,DEN,Denver,USA,2001-07-03T00:00:00.000Z,createdBy.fav10@example.com,2009-09-06T00:00:00.000Z,modifiedBy.fav10@example.com
+3983020f-aa32-440f-ac33-fa1a830d1935,LON,London,UK,2001-07-04T00:00:00.000Z,createdBy.fav11@example.com,2009-09-07T00:00:00.000Z,modifiedBy.fav11@example.com
+3983020f-aa32-440f-ac33-fa1a830d1936,PAR,Paris,France,2001-07-05T00:00:00.000Z,createdBy.fav12@example.com,2009-09-08T00:00:00.000Z,modifiedBy.fav12@example.com
+3983020f-aa32-440f-ac33-fa1a830d1937,TYO,Tokyo,Japan,2001-07-06T00:00:00.000Z,createdBy.fav13@example.com,2009-09-09T00:00:00.000Z,modifiedBy.fav13@example.com
+3983020f-aa32-440f-ac33-fa1a830d1938,SYD,Sydney,Australia,2001-07-07T00:00:00.000Z,createdBy.fav14@example.com,2009-09-10T00:00:00.000Z,modifiedBy.fav14@example.com
+3983020f-aa32-440f-ac33-fa1a830d1939,DXB,Dubai,UAE,2001-07-08T00:00:00.000Z,createdBy.fav15@example.com,2009-09-11T00:00:00.000Z,modifiedBy.fav15@example.com

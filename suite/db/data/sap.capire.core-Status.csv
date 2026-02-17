@@ -1,0 +1,4 @@
+code,name,descr
+PENDING,Pending,Approval is pending and awaiting action
+APPROVED,Approved,Request has been approved successfully
+REJECTED,Rejected,Request has been rejected

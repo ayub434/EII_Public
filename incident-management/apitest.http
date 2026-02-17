@@ -1,0 +1,11 @@
+
+POST http://localhost:4004/odata/v4/admin/Incidents HTTP/1.1
+Content-Type: application/json
+ 
+{
+   "customer_ID":"C001",
+   "title":"Incident created from api",
+   "urgency_code":"M",
+   "status_code":"I"
+}
+ 

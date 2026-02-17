@@ -1,0 +1,11 @@
+code,name,descr
+L,low,low
+M,medium,medium
+H,high,high
+U,urgent,urgent
+C,critical,critical
+N,normal,normal
+O,optional,optional
+R,required,required
+S,special,special
+E,elevated,elevated

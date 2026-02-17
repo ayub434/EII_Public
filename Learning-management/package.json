@@ -1,0 +1,28 @@
+{
+  "name": "Learning-management",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "dependencies": {
+    "@sap/cds": "^9",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2",
+    "cds-plugin-ui5": "^0.13.0"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-learningmanagement": "cds watch --open ns.learning.learningmanagement/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-leaarningmanagements": "cds watch --open lm.learningmanagement.leaarningmanagements/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-learning-management-fiori": "cds watch --open learningmanagementfiori.learningmanagementfiori/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-learningcertificates": "cds watch --open learningcertificates.learningcertificates/index.html?sap-ui-xx-viewCache=false --livereload false"
+  },
+  "private": true,
+  "workspaces": [
+    "app/*"
+  ],
+  "sapux": [
+    "app/leaarningmanagements",
+    "app/learningcertificates"
+  ]
+}

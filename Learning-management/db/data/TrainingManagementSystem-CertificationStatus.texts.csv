@@ -1,0 +1,11 @@
+code,locale,name,descr
+P,pl,pending,pending
+P,en,on_hold,on_hold
+A,fr,active,active
+A,de,active,active
+E,es,expired,expired
+E,it,expired,expired
+R,pt,revoked,revoked
+S,ru,suspended,suspended
+I,ja,inactive,inactive
+D,zh,draft,draft

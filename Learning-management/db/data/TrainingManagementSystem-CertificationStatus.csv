@@ -1,0 +1,11 @@
+code,name,descr
+P,pending,pending
+A,active,active
+E,expired,expired
+R,revoked,revoked
+S,suspended,suspended
+I,inactive,inactive
+D,draft,draft
+V,verified,verified
+C,cancelled,cancelled
+Re,renewed,renewed

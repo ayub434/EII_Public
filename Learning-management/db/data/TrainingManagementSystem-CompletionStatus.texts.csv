@@ -1,0 +1,11 @@
+code,locale,name,descr
+I,ms,in_Process,in_Process
+I,fr,on_hold,on_hold
+C,en,completed,completed
+C,de,completed,completed
+P,es,pending,pending
+P,it,pending,pending
+R,pt,rejected,rejected
+A,ru,approved,approved
+F,ja,failed,failed
+S,zh,submitted,submitted

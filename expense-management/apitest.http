@@ -1,0 +1,6 @@
+POST  http://localhost:4004/odata/v4/expenses/User HTTP 1.1
+Accept: application/json
+Content
+
+###
+GET http://localhost:4004/odata/v4/expenses/User HTTP 1.1

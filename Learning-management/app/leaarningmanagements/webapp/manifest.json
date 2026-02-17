@@ -1,0 +1,169 @@
+{
+  "_version": "1.81.0",
+  "sap.app": {
+    "id": "lm.learningmanagement.leaarningmanagements",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:lrop",
+      "version": "1.20.1",
+      "toolsId": "a7670d0d-d668-4e9d-98c1-dff1a9c4b7e2"
+    },
+    "dataSources": {
+      "mainService": {
+        "uri": "/odata/v4/admin/",
+        "type": "OData",
+        "settings": {
+          "annotations": [],
+          "odataVersion": "4.0"
+        }
+      }
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": true,
+    "dependencies": {
+      "minUI5Version": "1.144.0",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {},
+        "sap.fe.templates": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "lm.learningmanagement.leaarningmanagements.i18n.i18n"
+        }
+      },
+      "": {
+        "dataSource": "mainService",
+        "preload": true,
+        "settings": {
+          "operationMode": "Server",
+          "autoExpandSelect": true,
+          "earlyRequests": true
+        }
+      },
+      "@i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "uri": "i18n/i18n.properties"
+      }
+    },
+    "resources": {
+      "css": []
+    },
+    "routing": {
+      "config": {},
+      "routes": [
+        {
+          "pattern": ":?query:",
+          "name": "LearningRoadmapList",
+          "target": "LearningRoadmapList"
+        },
+        {
+          "pattern": "LearningRoadmap({key}):?query:",
+          "name": "LearningRoadmapObjectPage",
+          "target": "LearningRoadmapObjectPage"
+        },
+        {
+          "pattern": "LearningRoadmap({key})/modules({key2}):?query:",
+          "name": "LearningRoadmapModulesObjectPage",
+          "target": "LearningRoadmapModulesObjectPage"
+        }
+      ],
+      "targets": {
+        "LearningRoadmapList": {
+          "type": "Component",
+          "id": "LearningRoadmapList",
+          "name": "sap.fe.templates.ListReport",
+          "options": {
+            "settings": {
+              "contextPath": "/LearningRoadmap",
+              "variantManagement": "Page",
+              "navigation": {
+                "LearningRoadmap": {
+                  "detail": {
+                    "route": "LearningRoadmapObjectPage"
+                  }
+                }
+              },
+              "controlConfiguration": {
+                "@com.sap.vocabularies.UI.v1.LineItem": {
+                  "tableSettings": {
+                    "type": "ResponsiveTable"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "LearningRoadmapObjectPage": {
+          "type": "Component",
+          "id": "LearningRoadmapObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "editableHeaderContent": false,
+              "contextPath": "/LearningRoadmap",
+              "navigation": {
+                "modules": {
+                  "detail": {
+                    "route": "LearningRoadmapModulesObjectPage"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "LearningRoadmapModulesObjectPage": {
+          "type": "Component",
+          "id": "LearningRoadmapModulesObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "editableHeaderContent": false,
+              "contextPath": "/LearningRoadmap/modules"
+            }
+          }
+        }
+      }
+    }
+  },
+  "sap.fiori": {
+    "registrationIds": [],
+    "archeType": "transactional"
+  },
+  "sap.fe": {
+    "app": {
+      "enableLazyLoading": true
+    }
+  }
+}
