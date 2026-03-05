@@ -6,7 +6,7 @@ module.exports = cds.service.impl(async function () {
   {
     Employees,TrainingModules,TrainingSessions,SessionEnrollments,LearningRoadmap,LearningRoadmapModules,
     ModuleAssignments,CompletionPerformanceRecords,Certifications,EmployeeCertifications,AssignmentRules
-  } = db.entities("TrainingManagementSystem");
+  } = cds.entities("TrainingManagementSystem");
   const today = () => new Date().toISOString().slice(0,10);
 
   const addDays = (d, n) => 

@@ -7,9 +7,31 @@
         id="page"
         title="{i18n>title}"
     >
+    <IconTabHeader mode="Inline">
+        <items>
+            <IconTabFilter key="Learningmanagement" text="Learningmanagement" count="150" />
+            <IconTabFilter key="Trainings" text="Trainings" count="10" />
+            <IconTabFilter key="Sessions" text="Sessions" count="4" />
+            <IconTabFilter key="Certifications" text="Certifications" count="1"/>
+            <IconTabFilter key="Assignments" text="Assignments"/>
+ 
+        </items>
+    </IconTabHeader>
+    <content>
+        <VBox id="Vbox" class="sapUiSmallMarginBottom">
+        <Label id="learningsLabel" text="Courses" class="sapUiSmallMarginEnd" />
+        <Input id="Courses" class="sapUiSmallMarginEnd" />
+        <Label id="MyLearningsLabel" text="MyLearnings" class="sapUiSmallMarginEnd"/>
+        <Input id="MyLearnings" class="sapUiSmallMarginEnd" />
+        <Label id="StatusesLabel" text="Statuses" class ="sapUiSmallMarginEnd"/>
+        <Input id ="Statuses" class="sapUiSmallMarginEnd"/>
+        <Button id="saveBtn" text="Save" press="onSave" class="sapUiSmallMarginEnd"/>
+        <Button id="delBtn" text="Delete" press="onDelete" class="sapUiSmallMarginEnd"/>
+        </VBox>
+    </content>  
         <Table
-            id="LearningManagementTable"
-            footerText="Learning Management"
+            id="TrainingModulesTable"
+            headerText="Training Modules"
             visible="true"
             items="{ path:'/TrainingModules' }"
         >
@@ -52,6 +74,128 @@
                 <Text text="{description}"></Text>
                 <Text text="{provider}"></Text>
                 
+               
+            </cells>
+            </ColumnListItem>
+            </items>
+ 
+        </Table>
+        <Table
+            id="TrainingSessionsTable"
+            headerText="Training Sessions"
+            visible="true"
+            items="{ path:'/TrainingSessions' }"
+        >
+            <columns>
+                <Column
+                    id="4"
+                    width="200px"
+                    hAlign="Center"
+                >
+                    <Text
+                        id="d"
+                        text="startDate"
+                    />
+                </Column>
+                <Column
+                    id="5"
+                    width="200px"
+                    hAlign="Center"
+                >
+                    <Text
+                        id="e"
+                        text="endDate"
+                    />
+                </Column>
+                <Column
+                    id="6"
+                    width="200px"
+                    hAlign="Center"
+                >
+                    <Text
+                        id="f"
+                        text="startTime"
+                    />
+                </Column>
+                <Column
+                    id="7"
+                    width="200px"
+                    hAlign="Center"
+                >
+                    <Text
+                        id="g"
+                        text="endTime"
+                    />
+                </Column>
+            </columns>
+            <items>
+            <ColumnListItem id="04" >
+            <cells>
+                <Text text="{startDate}"></Text>
+                <Text text="{endDate}"></Text>
+                <Text text="{startTime}"></Text>
+                <Text text="{endTime}"></Text>
+               
+            </cells>
+            </ColumnListItem>
+            </items>
+ 
+        </Table>
+        <Table
+            id="CertificationTable"
+            headerText="Certifications"
+            visible="true"
+            items="{ path:'/Certifications' }"
+        >
+            <columns>
+                <Column
+                    id="8"
+                    width="200px"
+                    hAlign="Center"
+                >
+                    <Text
+                        id="h"
+                        text="code"
+                    />
+                </Column>
+                <Column
+                    id="9"
+                    width="200px"
+                    hAlign="Center"
+                >
+                    <Text
+                        id="i"
+                        text="title"
+                    />
+                </Column>
+                <Column
+                    id="10"
+                    width="200px"
+                    hAlign="Center"
+                >
+                    <Text
+                        id="j"
+                        text="description"
+                    />
+                </Column>
+                <Column
+                    id="11"
+                    width="200px"
+                    hAlign="Center"
+                >
+                    <Text
+                        id="k"
+                        text="validityMonths"
+                    />
+                </Column>
+            </columns>
+            <items>
+            <ColumnListItem id="08" >
+            <cells>
+                <Text text="{code}"></Text>
+                <Text text="{title}"></Text>
+                <Text text="{description}"></Text>
+                <Text text="{validityMonths}"></Text>
                
             </cells>
             </ColumnListItem>
