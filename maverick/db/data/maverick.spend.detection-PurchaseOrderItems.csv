@@ -1,0 +1,21 @@
+ID,po_ID,material_ID,contract_ID,itemNumber,description,quantity,uom,unitPrice,netAmount,taxAmount,deliveryDate,createdAt,createdBy,modifiedAt,modifiedBy
+poi1,po1,m1,c1,1,Office Desk - Ergonomic Executive,5,EA,420.00,2100.00,210.00,2025-01-17,2025-01-10T09:00:00Z,admin,2025-01-10T09:00:00Z,admin
+poi2,po2,m2,c2,1,Laptop Computer - Dell XPS 15,3,EA,1100.00,3300.00,330.00,2025-01-25,2025-01-11T10:30:00Z,admin,2025-01-11T10:30:00Z,admin
+poi3,po3,m3,c3,1,Office Chair - Ergonomic Task,8,EA,330.00,2640.00,264.00,2025-01-19,2025-01-12T08:15:00Z,admin,2025-01-12T08:15:00Z,admin
+poi4,po4,m4,c4,1,Printer Cartridge - HP CM750A,10,BX,80.00,800.00,80.00,2025-01-20,2025-01-13T14:00:00Z,admin,2025-01-13T14:00:00Z,admin
+poi5,po5,m5,c5,1,LED Lighting Panel - 60W Commercial,4,EA,240.00,960.00,96.00,2025-01-21,2025-01-14T11:45:00Z,admin,2025-01-14T11:45:00Z,admin
+poi6,po6,m6,c6,1,Network Switch - 48-Port Ethernet,2,EA,750.00,1500.00,150.00,2025-01-22,2025-01-15T09:30:00Z,admin,2025-01-15T09:30:00Z,admin
+poi7,po7,m7,c7,1,Document Shredder - Heavy-Duty,1,EA,580.00,580.00,58.00,2025-01-23,2025-01-16T10:00:00Z,admin,2025-01-16T10:00:00Z,admin
+poi8,po8,m8,c8,20,A4 Paper Ream - 500-Sheet Premium,20,RM,4.25,85.00,8.50,2025-01-24,2025-01-17T13:20:00Z,admin,2025-01-17T13:20:00Z,admin
+poi9,po9,m9,c9,2,USB Hub - 7-Port USB 3.0,6,EA,42.00,252.00,25.20,2025-01-25,2025-01-18T15:30:00Z,admin,2025-01-18T15:30:00Z,admin
+poi10,po10,m10,c10,1,Meeting Room Display - 75-inch,1,EA,3300.00,3300.00,330.00,2025-01-26,2025-01-19T08:45:00Z,admin,2025-01-19T08:45:00Z,admin
+poi11,po11,m11,c11,3,Cable Management Kit - Desk Set,12,SET,32.00,384.00,38.40,2025-01-27,2025-01-20T07:00:00Z,admin,2025-01-20T07:00:00Z,admin
+poi12,po12,m12,c12,1,Desk Lamp - LED Adjustable Task,6,EA,110.00,660.00,66.00,2025-01-28,2025-01-21T12:15:00Z,admin,2025-01-21T12:15:00Z,admin
+poi13,po13,m13,c13,2,Mouse and Keyboard - Wireless Combo,8,EA,60.00,480.00,48.00,2025-01-29,2025-01-22T14:45:00Z,admin,2025-01-22T14:45:00Z,admin
+poi14,po14,m14,c14,1,Storage Cabinet - Metal 4-Drawer,3,EA,360.00,1080.00,108.00,2025-01-30,2025-01-23T09:00:00Z,admin,2025-01-23T09:00:00Z,admin
+poi15,po15,m15,c15,1,Monitor Stand - Dual Monitor Arm,7,EA,90.00,630.00,63.00,2025-01-31,2025-01-24T10:30:00Z,admin,2025-01-24T10:30:00Z,admin
+poi16,po16,m16,c16,2,Webcam - 1080p Professional,5,EA,80.00,400.00,40.00,2025-02-01,2025-01-25T16:00:00Z,admin,2025-01-25T16:00:00Z,admin
+poi17,po17,m17,c17,1,Notebook Pack - 100-page Executive,15,PK,12.00,180.00,18.00,2025-02-02,2025-01-26T11:20:00Z,admin,2025-01-26T11:20:00Z,admin
+poi18,po18,m18,c18,1,Office Phone - IP Business Set,4,EA,170.00,680.00,68.00,2025-02-03,2025-01-27T13:40:00Z,admin,2025-01-27T13:40:00Z,admin
+poi19,po19,m19,c19,1,Projector - 1080p Business,2,EA,850.00,1700.00,170.00,2025-02-04,2025-01-28T15:10:00Z,admin,2025-01-28T15:10:00Z,admin
+poi20,po20,m20,c20,9,Desk Organizer - Multi-Compartment,9,EA,52.00,468.00,46.80,2025-02-05,2025-01-29T08:30:00Z,admin,2025-01-29T08:30:00Z,admin

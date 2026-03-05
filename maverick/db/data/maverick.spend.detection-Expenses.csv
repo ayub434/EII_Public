@@ -1,0 +1,21 @@
+ID,vendor_ID,account_ID,amount,currency,date,status,description,createdAt,createdBy,modifiedAt,modifiedBy
+e1,v1,a1,2500.00,USD,2025-01-10,APPROVED,Office supplies monthly order,2025-01-10T09:00:00Z,admin,2025-01-10T09:00:00Z,admin
+e2,v2,a3,5600.00,EUR,2025-01-11,APPROVED,IT infrastructure upgrade materials,2025-01-11T10:30:00Z,admin,2025-01-11T10:30:00Z,admin
+e3,v3,a4,1850.00,GBP,2025-01-12,PENDING,Facilities maintenance supplies,2025-01-12T08:15:00Z,admin,2025-01-12T08:15:00Z,admin
+e4,v4,a6,3200.00,CNY,2025-01-13,APPROVED,Raw materials procurement,2025-01-13T14:00:00Z,admin,2025-01-13T14:00:00Z,admin
+e5,v5,a5,4100.00,CAD,2025-01-14,REJECTED,Training and development materials,2025-01-14T11:45:00Z,admin,2025-01-14T11:45:00Z,admin
+e6,v6,a2,6750.00,USD,2025-01-15,APPROVED,Engineering equipment and tools,2025-01-15T09:30:00Z,admin,2025-01-15T09:30:00Z,admin
+e7,v7,a7,2200.00,EUR,2025-01-16,PENDING,Marketing campaign materials,2025-01-16T10:00:00Z,admin,2025-01-16T10:00:00Z,admin
+e8,v8,a8,5300.00,GBP,2025-01-17,APPROVED,Product development components,2025-01-17T13:20:00Z,admin,2025-01-17T13:20:00Z,admin
+e9,v9,a9,1975.00,EUR,2025-01-18,APPROVED,Quality assurance testing equipment,2025-01-18T15:30:00Z,admin,2025-01-18T15:30:00Z,admin
+e10,v10,a10,8450.00,USD,2025-01-19,APPROVED,Logistics automation system,2025-01-19T08:45:00Z,admin,2025-01-19T08:45:00Z,admin
+e11,v11,a11,3600.00,JPY,2025-01-20,PENDING,Customer support platform upgrade,2025-01-20T07:00:00Z,admin,2025-01-20T07:00:00Z,admin
+e12,v12,a12,7200.00,INR,2025-01-21,APPROVED,R&D laboratory equipment,2025-01-21T12:15:00Z,admin,2025-01-21T12:15:00Z,admin
+e13,v13,a13,4850.00,USD,2025-01-22,APPROVED,Supply chain management software,2025-01-22T14:45:00Z,admin,2025-01-22T14:45:00Z,admin
+e14,v14,a14,5400.00,EUR,2025-01-23,PENDING,Procurement system enhancement,2025-01-23T09:00:00Z,admin,2025-01-23T09:00:00Z,admin
+e15,v15,a15,6200.00,SGD,2025-01-24,APPROVED,Regional sales office supplies,2025-01-24T10:30:00Z,admin,2025-01-24T10:30:00Z,admin
+e16,v16,a16,3950.00,MXN,2025-01-25,APPROVED,Global operations equipment,2025-01-25T16:00:00Z,admin,2025-01-25T16:00:00Z,admin
+e17,v17,a17,2875.00,USD,2025-01-26,REJECTED,Corporate accounting software licenses,2025-01-26T11:20:00Z,admin,2025-01-26T11:20:00Z,admin
+e18,v18,a18,7600.00,BRL,2025-01-27,APPROVED,Compliance monitoring tools,2025-01-27T13:40:00Z,admin,2025-01-27T13:40:00Z,admin
+e19,v19,a19,4100.00,AUD,2025-01-28,PENDING,Training materials and courses,2025-01-28T15:10:00Z,admin,2025-01-28T15:10:00Z,admin
+e20,v20,a20,5750.00,AED,2025-01-29,APPROVED,Strategic planning consultation services,2025-01-29T08:30:00Z,admin,2025-01-29T08:30:00Z,admin

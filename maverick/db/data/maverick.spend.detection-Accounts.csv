@@ -1,0 +1,21 @@
+ID,name,number,owner,type,createdAt,createdBy,modifiedAt,modifiedBy
+a1,Operations Account,ACC-001,John Smith,Operating,2025-01-10T09:00:00Z,admin,2025-01-10T09:00:00Z,admin
+a2,Engineering Department,ACC-002,Sarah Johnson,Department,2025-01-11T10:30:00Z,admin,2025-01-11T10:30:00Z,admin
+a3,IT Infrastructure,ACC-003,Michael Chen,Operating,2025-01-12T08:15:00Z,admin,2025-01-12T08:15:00Z,admin
+a4,Facilities Management,ACC-004,Patricia Lee,Department,2025-01-13T14:00:00Z,admin,2025-01-13T14:00:00Z,admin
+a5,Human Resources,ACC-005,Robert Garcia,Department,2025-01-14T11:45:00Z,admin,2025-01-14T11:45:00Z,admin
+a6,Finance Operations,ACC-006,Emily Davis,Operating,2025-01-15T09:30:00Z,admin,2025-01-15T09:30:00Z,admin
+a7,Marketing Department,ACC-007,David Wilson,Department,2025-01-16T10:00:00Z,admin,2025-01-16T10:00:00Z,admin
+a8,Product Development,ACC-008,Jennifer Martinez,Operating,2025-01-17T13:20:00Z,admin,2025-01-17T13:20:00Z,admin
+a9,Quality Assurance,ACC-009,Thomas Anderson,Department,2025-01-18T15:30:00Z,admin,2025-01-18T15:30:00Z,admin
+a10,Logistics Hub,ACC-010,Amanda Taylor,Operating,2025-01-19T08:45:00Z,admin,2025-01-19T08:45:00Z,admin
+a11,Customer Support,ACC-011,Christopher Brown,Department,2025-01-20T07:00:00Z,admin,2025-01-20T07:00:00Z,admin
+a12,Research & Development,ACC-012,Lisa Thompson,Operating,2025-01-21T12:15:00Z,admin,2025-01-21T12:15:00Z,admin
+a13,Supply Chain,ACC-013,Kenneth Moore,Department,2025-01-22T14:45:00Z,admin,2025-01-22T14:45:00Z,admin
+a14,Procurement Hub,ACC-014,Susan Jackson,Operating,2025-01-23T09:00:00Z,admin,2025-01-23T09:00:00Z,admin
+a15,Regional Sales,ACC-015,James White,Department,2025-01-24T10:30:00Z,admin,2025-01-24T10:30:00Z,admin
+a16,Global Operations,ACC-016,Mary Harris,Operating,2025-01-25T16:00:00Z,admin,2025-01-25T16:00:00Z,admin
+a17,Corporate Accounting,ACC-017,Richard Martin,Department,2025-01-26T11:20:00Z,admin,2025-01-26T11:20:00Z,admin
+a18,Compliance Office,ACC-018,Patricia Robinson,Operating,2025-01-27T13:40:00Z,admin,2025-01-27T13:40:00Z,admin
+a19,Training & Development,ACC-019,Frank Clark,Department,2025-01-28T15:10:00Z,admin,2025-01-28T15:10:00Z,admin
+a20,Strategic Planning,ACC-020,Diana Lewis,Operating,2025-01-29T08:30:00Z,admin,2025-01-29T08:30:00Z,admin

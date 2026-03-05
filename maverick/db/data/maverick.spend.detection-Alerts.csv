@@ -1,0 +1,21 @@
+ID,expense_ID,type,severity,message,resolved,createdAt,createdBy,modifiedAt,modifiedBy
+al1,e1,DUPLICATE_PO,MEDIUM,Duplicate purchase order detected for same vendor and material,false,2025-01-10T09:15:00Z,admin,2025-01-10T09:15:00Z,admin
+al2,e2,PRICE_DEVIATION,HIGH,Price exceeds contracted amount by 8.5%,false,2025-01-11T10:45:00Z,admin,2025-01-11T10:45:00Z,admin
+al3,e3,NON_PREFERRED_VENDOR,LOW,Purchase from non-preferred vendor on file,true,2025-01-12T08:30:00Z,admin,2025-01-12T10:00:00Z,admin
+al4,e4,OFF_CATALOG,MEDIUM,Item purchased not found in approved catalog,false,2025-01-13T14:20:00Z,admin,2025-01-13T14:20:00Z,admin
+al5,e5,LATE_DELIVERY,HIGH,Delivery 5 days past requested delivery date,true,2025-01-14T12:00:00Z,admin,2025-01-15T09:30:00Z,admin
+al6,e6,PRICE_DEVIATION,HIGH,Price deviation of 12.3% from contract,false,2025-01-15T09:45:00Z,admin,2025-01-15T09:45:00Z,admin
+al7,e7,EARLY_DELIVERY,LOW,Delivery received 2 days before requested date,false,2025-01-16T10:15:00Z,admin,2025-01-16T10:15:00Z,admin
+al8,e8,OVERSTOCK,MEDIUM,Ordered quantity 25% above typical consumption,false,2025-01-17T13:35:00Z,admin,2025-01-17T13:35:00Z,admin
+al9,e9,QUALITY_ISSUE,HIGH,Product quality does not meet specification standards,true,2025-01-18T15:50:00Z,admin,2025-01-19T08:00:00Z,admin
+al10,e10,PRICE_DEVIATION,MEDIUM,Price increased by 5.2% from last purchase,false,2025-01-19T09:00:00Z,admin,2025-01-19T09:00:00Z,admin
+al11,e11,NON_PREFERRED_VENDOR,MEDIUM,Vendor not on preferred supplier list,false,2025-01-20T07:20:00Z,admin,2025-01-20T07:20:00Z,admin
+al12,e12,LATE_DELIVERY,MEDIUM,3-day delay in delivery from scheduled date,true,2025-01-21T12:30:00Z,admin,2025-01-22T10:00:00Z,admin
+al13,e13,OFF_CATALOG,LOW,Item code not found in standard inventory catalog,false,2025-01-22T15:00:00Z,admin,2025-01-22T15:00:00Z,admin
+al14,e14,DUPLICATE_PO,LOW,Near-duplicate orders within 48 hour window,false,2025-01-23T09:15:00Z,admin,2025-01-23T09:15:00Z,admin
+al15,e15,PRICE_DEVIATION,MEDIUM,Unit price 6.8% higher than contract terms,false,2025-01-24T10:45:00Z,admin,2025-01-24T10:45:00Z,admin
+al16,e16,OVERSTOCK,HIGH,Ordered quantity significantly exceeds monthly consumption,false,2025-01-25T16:20:00Z,admin,2025-01-25T16:20:00Z,admin
+al17,e17,QUALITY_ISSUE,MEDIUM,Minor quality issues noted in delivery report,true,2025-01-26T11:40:00Z,admin,2025-01-27T09:00:00Z,admin
+al18,e18,EARLY_DELIVERY,LOW,Delivery 1 day ahead of schedule,false,2025-01-27T13:55:00Z,admin,2025-01-27T13:55:00Z,admin
+al19,e19,NON_PREFERRED_VENDOR,HIGH,Critical vendor not on approved source list,false,2025-01-28T15:25:00Z,admin,2025-01-28T15:25:00Z,admin
+al20,e20,PRICE_DEVIATION,HIGH,Price variance of 15.4% above budget allocation,false,2025-01-29T08:45:00Z,admin,2025-01-29T08:45:00Z,admin

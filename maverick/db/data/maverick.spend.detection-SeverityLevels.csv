@@ -1,0 +1,4 @@
+code,text,name,descr
+LOW,Low,Low,Minor finding affecting less than 5% of transaction value
+MEDIUM,Medium,Medium,Moderate finding affecting 5-15% of transaction value
+HIGH,High,High,Critical finding affecting more than 15% of transaction value

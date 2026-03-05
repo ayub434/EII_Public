@@ -1,0 +1,7 @@
+code,locale,name,descr
+LOW,de,Niedrig,Geringer Befund mit weniger als 5% Transaktionswert
+LOW,fr,Bas,Constatation mineure affectant moins de 5% de la valeur de la transaction
+MEDIUM,de,Mittel,Mittelschwerer Befund mit 5-15% Transaktionswert
+MEDIUM,fr,Moyen,Constatation modérée affectant 5-15% de la valeur de la transaction
+HIGH,de,Hoch,Kritischer Befund mit mehr als 15% Transaktionswert
+HIGH,fr,Élevé,Constatation critique affectant plus de 15% de la valeur de la transaction

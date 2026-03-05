@@ -1,0 +1,21 @@
+ID,materialCode,name,description,category,uom,isCatalogItem,catalogPrice,createdAt,createdBy,modifiedAt,modifiedBy
+m1,MAT-001,Office Desk,Ergonomic Executive Office Desk,Furniture,EA,true,450.00,2025-01-10T09:00:00Z,admin,2025-01-10T09:00:00Z,admin
+m2,MAT-002,Laptop Computer,Dell XPS 15 Laptop,IT Equipment,EA,true,1200.00,2025-01-11T10:30:00Z,admin,2025-01-11T10:30:00Z,admin
+m3,MAT-003,Office Chair,Ergonomic Task Chair with Lumbar Support,Furniture,EA,true,350.00,2025-01-12T08:15:00Z,admin,2025-01-12T08:15:00Z,admin
+m4,MAT-004,Printer Cartridge,HP CM750A Toner Cartridge,Supplies,BX,true,85.50,2025-01-13T14:00:00Z,admin,2025-01-13T14:00:00Z,admin
+m5,MAT-005,LED Lighting Panel,60W Commercial LED Panel,Equipment,EA,true,250.00,2025-01-14T11:45:00Z,admin,2025-01-14T11:45:00Z,admin
+m6,MAT-006,Network Switch,48-Port Managed Ethernet Switch,IT Equipment,EA,true,800.00,2025-01-15T09:30:00Z,admin,2025-01-15T09:30:00Z,admin
+m7,MAT-007,Document Shredder,Heavy-Duty Paper Shredder,Equipment,EA,true,600.00,2025-01-16T10:00:00Z,admin,2025-01-16T10:00:00Z,admin
+m8,MAT-008,A4 Paper Ream,500-Sheet Premium White Paper,Supplies,RM,true,4.50,2025-01-17T13:20:00Z,admin,2025-01-17T13:20:00Z,admin
+m9,MAT-009,USB Hub,7-Port USB 3.0 Hub Extension,IT Equipment,EA,true,45.00,2025-01-18T15:30:00Z,admin,2025-01-18T15:30:00Z,admin
+m10,MAT-010,Meeting Room Display,75-inch Interactive Display,Equipment,EA,true,3500.00,2025-01-19T08:45:00Z,admin,2025-01-19T08:45:00Z,admin
+m11,MAT-011,Cable Management Kit,Desk Cable Organizer Set,Supplies,SET,true,35.00,2025-01-20T07:00:00Z,admin,2025-01-20T07:00:00Z,admin
+m12,MAT-012,Desk Lamp,LED Adjustable Task Lamp,Equipment,EA,true,120.00,2025-01-21T12:15:00Z,admin,2025-01-21T12:15:00Z,admin
+m13,MAT-013,Mouse and Keyboard,Wireless Keyboard and Mouse Combo,IT Equipment,EA,true,65.00,2025-01-22T14:45:00Z,admin,2025-01-22T14:45:00Z,admin
+m14,MAT-014,Storage Cabinet,Metal 4-Drawer Filing Cabinet,Furniture,EA,true,380.00,2025-01-23T09:00:00Z,admin,2025-01-23T09:00:00Z,admin
+m15,MAT-015,Monitor Stand,Dual Monitor Arm Stand,Equipment,EA,true,95.00,2025-01-24T10:30:00Z,admin,2025-01-24T10:30:00Z,admin
+m16,MAT-016,Webcam,1080p Professional Webcam,IT Equipment,EA,true,85.00,2025-01-25T16:00:00Z,admin,2025-01-25T16:00:00Z,admin
+m17,MAT-017,Notebook Pack,100-page Executive Notebooks,Supplies,PK,true,12.50,2025-01-26T11:20:00Z,admin,2025-01-26T11:20:00Z,admin
+m18,MAT-018,Office Phone,IP Business Telephone Set,Equipment,EA,true,180.00,2025-01-27T13:40:00Z,admin,2025-01-27T13:40:00Z,admin
+m19,MAT-019,Projector,1080p Business Projector,Equipment,EA,true,900.00,2025-01-28T15:10:00Z,admin,2025-01-28T15:10:00Z,admin
+m20,MAT-020,Desk Organizer,Multi-Compartment Desktop Organizer,Supplies,EA,true,55.00,2025-01-29T08:30:00Z,admin,2025-01-29T08:30:00Z,admin

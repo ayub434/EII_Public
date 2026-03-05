@@ -1,0 +1,9 @@
+code,text,name,descr
+PRICE_DEVIATION,Price Deviation,Price Deviation,Price exceeds contracted or catalog price
+NON_PREFERRED_VENDOR,Non-Preferred Vendor,Non-Preferred Vendor,Purchase from vendor not on preferred list
+OFF_CATALOG,Off Catalog Item,Off Catalog Item,Item purchased not from standard catalog
+EARLY_DELIVERY,Early Delivery,Early Delivery,Item delivered before requested date
+LATE_DELIVERY,Late Delivery,Late Delivery,Item delivered after delivery deadline
+QUALITY_ISSUE,Quality Issue,Quality Issue,Product quality does not meet specifications
+DUPLICATE_PO,Duplicate Purchase Order,Duplicate Purchase Order,Duplicate purchase order detected
+OVERSTOCK,Overstock,Overstock,Purchase quantity exceeds typical consumption

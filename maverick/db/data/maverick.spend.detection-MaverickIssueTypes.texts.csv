@@ -1,0 +1,17 @@
+code,locale,name,descr
+PRICE_DEVIATION,de,Preisabweichung,Preis überschreitet vereinbarten oder Katalogpreis
+PRICE_DEVIATION,fr,Écart de Prix,Le prix dépasse le prix du catalogue ou contracté
+NON_PREFERRED_VENDOR,de,Nicht bevorzugter Lieferant,Kauf vom Lieferanten nicht auf bevorzugter Liste
+NON_PREFERRED_VENDOR,fr,Fournisseur Non Préféré,Achat d'un fournisseur ne figurant pas sur la liste préférée
+OFF_CATALOG,de,Artikel außerhalb des Katalogs,Artikel nicht aus dem Standardkatalog gekauft
+OFF_CATALOG,fr,Hors Catalogue,Article acheté non disponible dans le catalogue standard
+EARLY_DELIVERY,de,Frühzeitige Lieferung,Artikel vor dem angeforderten Datum geliefert
+EARLY_DELIVERY,fr,Livraison Anticipée,Article livré avant la date demandée
+LATE_DELIVERY,de,Verspätete Lieferung,Artikel nach der Lieferfrist geliefert
+LATE_DELIVERY,fr,Livraison Tardive,Article livré après la date limite de livraison
+QUALITY_ISSUE,de,Qualitätsproblem,Produktqualität erfüllt nicht die Spezifikationen
+QUALITY_ISSUE,fr,Problème de Qualité,La qualité du produit ne satisfait pas les spécifications
+DUPLICATE_PO,de,Doppelte Bestellung,Doppelte Bestellung erkannt
+DUPLICATE_PO,fr,Commande Dupliquée,Commande dupliquée détectée
+OVERSTOCK,de,Überbestand,Bestellmenge überschreitet typischen Verbrauch
+OVERSTOCK,fr,Surstock,La quantité commandée dépasse la consommation typique

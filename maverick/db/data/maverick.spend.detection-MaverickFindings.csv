@@ -1,0 +1,21 @@
+ID,po_ID,poItem_ID,vendor_ID,issueType_code,severity_code,deviationAmount,deviationPercent,detectedAt,comments,createdAt,createdBy,modifiedAt,modifiedBy
+mf1,po1,poi1,v1,PRICE_DEVIATION,MEDIUM,250.00,5.0,2025-01-10T10:30:00Z,Unit price higher than contract,2025-01-10T10:30:00Z,admin,2025-01-10T10:30:00Z,admin
+mf2,po2,poi2,v2,PRICE_DEVIATION,HIGH,680.00,8.0,2025-01-11T11:00:00Z,Material cost increase detected,2025-01-11T11:00:00Z,admin,2025-01-11T11:00:00Z,admin
+mf3,po3,poi3,v3,NON_PREFERRED_VENDOR,LOW,175.00,2.5,2025-01-12T09:00:00Z,Vendor has backup alternatives,2025-01-12T09:00:00Z,admin,2025-01-12T09:00:00Z,admin
+mf4,po4,poi4,v4,OFF_CATALOG,MEDIUM,150.00,4.2,2025-01-13T15:00:00Z,Item not in approved catalog,2025-01-13T15:00:00Z,admin,2025-01-13T15:00:00Z,admin
+mf5,po5,poi5,v5,OVERSTOCK,MEDIUM,350.00,3.8,2025-01-14T12:20:00Z,Quantity 20% above planned consumption,2025-01-14T12:20:00Z,admin,2025-01-14T12:20:00Z,admin
+mf6,po6,poi6,v6,PRICE_DEVIATION,HIGH,920.00,12.0,2025-01-15T10:00:00Z,Significant price variance from quote,2025-01-15T10:00:00Z,admin,2025-01-15T10:00:00Z,admin
+mf7,po7,poi7,v7,NON_PREFERRED_VENDOR,LOW,120.00,1.5,2025-01-16T10:30:00Z,Sole source exception approved,2025-01-16T10:30:00Z,admin,2025-01-16T10:30:00Z,admin
+mf8,po8,poi8,v8,OFF_CATALOG,LOW,45.00,1.2,2025-01-17T13:40:00Z,Custom specification not in catalog,2025-01-17T13:40:00Z,admin,2025-01-17T13:40:00Z,admin
+mf9,po9,poi9,v9,PRICE_DEVIATION,MEDIUM,180.00,6.5,2025-01-18T16:00:00Z,Price increase from previous purchase,2025-01-18T16:00:00Z,admin,2025-01-18T16:00:00Z,admin
+mf10,po10,poi10,v10,OVERSTOCK,HIGH,1200.00,14.8,2025-01-19T09:15:00Z,Excessive quantity ordered,2025-01-19T09:15:00Z,admin,2025-01-19T09:15:00Z,admin
+mf11,po11,poi11,v11,PRICE_DEVIATION,LOW,75.00,2.8,2025-01-20T07:30:00Z,Minor variance within tolerance,2025-01-20T07:30:00Z,admin,2025-01-20T07:30:00Z,admin
+mf12,po12,poi12,v12,NON_PREFERRED_VENDOR,MEDIUM,250.00,5.5,2025-01-21T12:45:00Z,Alternative vendor available,2025-01-21T12:45:00Z,admin,2025-01-21T12:45:00Z,admin
+mf13,po13,poi13,v13,PRICE_DEVIATION,MEDIUM,320.00,4.2,2025-01-22T15:15:00Z,Unit cost variance detected,2025-01-22T15:15:00Z,admin,2025-01-22T15:15:00Z,admin
+mf14,po14,poi14,v14,OFF_CATALOG,MEDIUM,275.00,5.1,2025-01-23T09:30:00Z,Specification not in standard catalog,2025-01-23T09:30:00Z,admin,2025-01-23T09:30:00Z,admin
+mf15,po15,poi15,v15,PRICE_DEVIATION,HIGH,580.00,9.3,2025-01-24T11:00:00Z,Significant cost increase,2025-01-24T11:00:00Z,admin,2025-01-24T11:00:00Z,admin
+mf16,po16,poi16,v16,OVERSTOCK,LOW,165.00,3.2,2025-01-25T16:30:00Z,Slight overstock situation,2025-01-25T16:30:00Z,admin,2025-01-25T16:30:00Z,admin
+mf17,po17,poi17,v17,NON_PREFERRED_VENDOR,HIGH,450.00,8.7,2025-01-26T11:50:00Z,Critical vendor compliance issue,2025-01-26T11:50:00Z,admin,2025-01-26T11:50:00Z,admin
+mf18,po18,poi18,v18,PRICE_DEVIATION,MEDIUM,340.00,6.1,2025-01-27T14:00:00Z,Market price adjustment detected,2025-01-27T14:00:00Z,admin,2025-01-27T14:00:00Z,admin
+mf19,po19,poi19,v19,OFF_CATALOG,LOW,95.00,2.4,2025-01-28T15:35:00Z,Special order requirement,2025-01-28T15:35:00Z,admin,2025-01-28T15:35:00Z,admin
+mf20,po20,poi20,v20,PRICE_DEVIATION,HIGH,720.00,13.6,2025-01-29T08:55:00Z,Price variance exceeds threshold,2025-01-29T08:55:00Z,admin,2025-01-29T08:55:00Z,admin

@@ -1,0 +1,21 @@
+ID,vendorName,vendorCode,vendorType_code,taxNumber,preferredVendor,country,city,addressLine1,addressLine2,postalCode,contactPerson,contactEmail,contactPhone,riskScore,createdAt,createdBy,modifiedAt,modifiedBy
+V001,Dell India Pvt Ltd,VEND001,OEM,TAX001,true,India,Bangalore,Embassy Golf Links Road,Domlur,560071,Rajesh Kumar,rajesh.kumar@dell.com,9876543210,10,2025-01-01T10:00:00Z,admin,2025-01-01T10:00:00Z,admin
+V002,HP India Pvt Ltd,VEND002,OEM,TAX002,true,India,Bangalore,MG Road,Ashok Nagar,560001,Anita Sharma,anita.sharma@hp.com,9876543211,12,2025-01-02T10:00:00Z,admin,2025-01-02T10:00:00Z,admin
+V003,Lenovo India Pvt Ltd,VEND003,OEM,TAX003,true,India,Bangalore,Outer Ring Road,Bellandur,560103,Rahul Verma,rahul.verma@lenovo.com,9876543212,15,2025-01-03T10:00:00Z,admin,2025-01-03T10:00:00Z,admin
+V004,Microsoft India Pvt Ltd,VEND004,SERVICE,TAX004,true,India,Hyderabad,Hitech City,Madhapur,500081,Nikhil Reddy,nikhil.reddy@microsoft.com,9876543213,8,2025-01-04T10:00:00Z,admin,2025-01-04T10:00:00Z,admin
+V005,Local IT Supplier,VEND005,RESELLER,TAX005,false,India,Bangalore,Jayanagar,4th Block,560011,Sunil Rao,sunil.rao@localit.com,9876543214,45,2025-01-05T10:00:00Z,admin,2025-01-05T10:00:00Z,admin
+V006,Office Furniture Co,VEND006,SUPPLIER,TAX006,true,India,Chennai,Anna Salai,Teynampet,600018,Meena Iyer,meena.iyer@furnitureco.com,9876543215,20,2025-01-06T10:00:00Z,admin,2025-01-06T10:00:00Z,admin
+V007,Canon India Pvt Ltd,VEND007,OEM,TAX007,true,India,Delhi,Nehru Place,South Delhi,110019,Pooja Singh,pooja.singh@canon.com,9876543216,14,2025-01-07T10:00:00Z,admin,2025-01-07T10:00:00Z,admin
+V008,Network Solutions,VEND008,RESELLER,TAX008,false,India,Bangalore,Whitefield,ITPL Road,560066,Amit Patel,amit.patel@netsol.com,9876543217,38,2025-01-08T10:00:00Z,admin,2025-01-08T10:00:00Z,admin
+V009,Amazon Business,VEND009,MARKETPLACE,TAX009,true,India,Mumbai,BKC,Kurla,400051,Rohit Jain,rohit.jain@amazon.com,9876543218,18,2025-01-09T10:00:00Z,admin,2025-01-09T10:00:00Z,admin
+V010,Flipkart Wholesale,VEND010,MARKETPLACE,TAX010,true,India,Bangalore,KR Puram,Old Madras Road,560036,Sneha Shah,sneha.shah@flipkart.com,9876543219,22,2025-01-10T10:00:00Z,admin,2025-01-10T10:00:00Z,admin
+V011,Security Services Ltd,VEND011,SERVICE,TAX011,false,India,Bangalore,Yelahanka,New Town,560064,Kiran Das,kiran.das@security.com,9876543220,40,2025-01-11T10:00:00Z,admin,2025-01-11T10:00:00Z,admin
+V012,CleanPro Services,VEND012,SERVICE,TAX012,false,India,Bangalore,Marathahalli,Outer Ring Road,560037,Neha Kapoor,neha.kapoor@cleanpro.com,9876543221,35,2025-01-12T10:00:00Z,admin,2025-01-12T10:00:00Z,admin
+V013,CloudServe Pvt Ltd,VEND013,SERVICE,TAX013,true,India,Pune,Hinjewadi,Phase 2,411057,Rohit Nair,rohit.nair@cloudserve.com,9876543222,12,2025-01-13T10:00:00Z,admin,2025-01-13T10:00:00Z,admin
+V014,ConsultCorp India,VEND014,SERVICE,TAX014,false,India,Gurgaon,Dlf Phase 3,Cyber City,122002,Sneha Gupta,sneha.gupta@consultcorp.com,9876543223,33,2025-01-14T10:00:00Z,admin,2025-01-14T10:00:00Z,admin
+V015,Stationery Hub,VEND015,SUPPLIER,TAX015,true,India,Bangalore,Malleswaram,8th Cross,560003,Arun Shah,arun.shah@stationeryhub.com,9876543224,16,2025-01-15T10:00:00Z,admin,2025-01-15T10:00:00Z,admin
+V016,Catering Masters,VEND016,SERVICE,TAX016,false,India,Bangalore,Indiranagar,100ft Road,560038,Ritu Malhotra,ritu.malhotra@catering.com,9876543225,42,2025-01-16T10:00:00Z,admin,2025-01-16T10:00:00Z,admin
+V017,Transport Experts,VEND017,SERVICE,TAX017,false,India,Bangalore,BTM Layout,2nd Stage,560076,Ajay Mehta,ajay.mehta@transport.com,9876543226,39,2025-01-17T10:00:00Z,admin,2025-01-17T10:00:00Z,admin
+V018,LegalEdge LLP,VEND018,SERVICE,TAX018,true,India,Delhi,Connaught Place,Block A,110001,Rahul Bansal,rahul.bansal@legaledge.com,9876543227,11,2025-01-18T10:00:00Z,admin,2025-01-18T10:00:00Z,admin
+V019,AuditPro Associates,VEND019,SERVICE,TAX019,true,India,Mumbai,Andheri East,SEEPZ,400093,Kavita Jain,kavita.jain@auditpro.com,9876543228,13,2025-01-19T10:00:00Z,admin,2025-01-19T10:00:00Z,admin
+V020,Marketing Hub Pvt Ltd,VEND020,SERVICE,TAX020,false,India,Bangalore,HSR Layout,Sector 6,560102,Varun Khanna,varun.khanna@marketinghub.com,9876543229,37,2025-01-20T10:00:00Z,admin,2025-01-20T10:00:00Z,admin

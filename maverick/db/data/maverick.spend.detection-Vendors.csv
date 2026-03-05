@@ -1,0 +1,21 @@
+ID,name,vendorCode,email,country,city,isPreferred,createdAt,createdBy,modifiedAt,modifiedBy
+v1,Acme Supplies Inc,VSN-001,contact@acmesupplies.com,USA,New York,true,2025-01-10T09:00:00Z,admin,2025-01-10T09:00:00Z,admin
+v2,Global Tech Solutions,VSN-002,sales@globaltech.com,Germany,Berlin,true,2025-01-11T10:30:00Z,admin,2025-01-11T10:30:00Z,admin
+v3,European Materials Ltd,VSN-003,info@eurmats.eu,UK,London,false,2025-01-12T08:15:00Z,admin,2025-01-12T08:15:00Z,admin
+v4,Asia Pacific Distributors,VSN-004,support@asiapacdist.com,China,Shanghai,true,2025-01-13T14:00:00Z,admin,2025-01-13T14:00:00Z,admin
+v5,North America Partners,VSN-005,business@napartners.com,Canada,Toronto,false,2025-01-14T11:45:00Z,admin,2025-01-14T11:45:00Z,admin
+v6,Premium Quality Group,VSN-006,quality@premiumqg.com,USA,Chicago,true,2025-01-15T09:30:00Z,admin,2025-01-15T09:30:00Z,admin
+v7,Industrial Supplies Co,VSN-007,orders@indsupp.com,France,Paris,false,2025-01-16T10:00:00Z,admin,2025-01-16T10:00:00Z,admin
+v8,Digital Commerce Ltd,VSN-008,contact@digitcomm.co.uk,UK,Manchester,true,2025-01-17T13:20:00Z,admin,2025-01-17T13:20:00Z,admin
+v9,Smart Solutions GmbH,VSN-009,sales@smartsol.de,Germany,Munich,false,2025-01-18T15:30:00Z,admin,2025-01-18T15:30:00Z,admin
+v10,Global Components Inc,VSN-010,procurement@globalcomp.com,USA,Los Angeles,true,2025-01-19T08:45:00Z,admin,2025-01-19T08:45:00Z,admin
+v11,Reliable Trading Partners,VSN-011,sales@reliabletp.com,Japan,Tokyo,false,2025-01-20T07:00:00Z,admin,2025-01-20T07:00:00Z,admin
+v12,Excellence Materials,VSN-012,info@excellencemat.com,India,Mumbai,true,2025-01-21T12:15:00Z,admin,2025-01-21T12:15:00Z,admin
+v13,FastTrack Delivery Systems,VSN-013,logistics@fasttrack.com,USA,Dallas,false,2025-01-22T14:45:00Z,admin,2025-01-22T14:45:00Z,admin
+v14,Secure Logistics Europe,VSN-014,operations@securelogeu.com,Netherlands,Amsterdam,true,2025-01-23T09:00:00Z,admin,2025-01-23T09:00:00Z,admin
+v15,Innovative Products Ltd,VSN-015,sales@innovprod.com,Singapore,Singapore,false,2025-01-24T10:30:00Z,admin,2025-01-24T10:30:00Z,admin
+v16,Quality First Manufacturers,VSN-016,contact@qualfirst.com,Mexico,Mexico City,true,2025-01-25T16:00:00Z,admin,2025-01-25T16:00:00Z,admin
+v17,Precision Engineering Co,VSN-017,engineering@preceng.com,USA,Boston,false,2025-01-26T11:20:00Z,admin,2025-01-26T11:20:00Z,admin
+v18,Global Distribution Network,VSN-018,distribution@globaldist.com,Brazil,Sao Paulo,true,2025-01-27T13:40:00Z,admin,2025-01-27T13:40:00Z,admin
+v19,Strategic Procurement Partners,VSN-019,procurement@stratpp.com,Australia,Sydney,false,2025-01-28T15:10:00Z,admin,2025-01-28T15:10:00Z,admin
+v20,Premium Business Solutions,VSN-020,contact@premiumbs.com,UAE,Dubai,true,2025-01-29T08:30:00Z,admin,2025-01-29T08:30:00Z,admin

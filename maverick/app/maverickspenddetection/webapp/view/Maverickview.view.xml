@@ -1,0 +1,47 @@
+<mvc:View
+  controllerName="maverick.app.controller.Main"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m">
+
+  <Page title="Maverick Spend Detection">
+
+    <content>
+
+      <Toolbar>
+        <Button text="Detect Anomalies" press="onDetect"/>
+        <Button text="Bulk Approve Selected" press="onBulkApprove"/>
+      </Toolbar>
+
+      <Table
+        id="expenseTable"
+        items="{ path: '/Expenses' }"
+        mode="MultiSelect">
+
+        <columns>
+          <Column><Text text="Vendor"/></Column>
+          <Column><Text text="Amount"/></Column>
+          <Column><Text text="Status"/></Column>
+          <Column><Text text="Date"/></Column>
+          <Column><Text text="Risk Score"/></Column>
+        </columns>
+
+        <items>
+          <ColumnListItem>
+            <cells>
+              <Text text="{vendor/name}"/>
+              <Text text="{amount}"/>
+              <Text text="{status}"/>
+              <Text text="{date}"/>
+              <Button text="Check Risk"
+                      press="onRiskScore"/>
+            </cells>
+          </ColumnListItem>
+        </items>
+
+      </Table>
+
+    </content>
+
+  </Page>
+
+</mvc:View>
