@@ -1,0 +1,1 @@
+using maverrickService as service from '../../srv/service';

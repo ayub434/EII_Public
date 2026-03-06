@@ -1,0 +1,117 @@
+{
+  "_version": "1.82.0",
+  "sap.app": {
+    "id": "maverickdetection",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:basic",
+      "version": "1.20.4",
+      "toolsId": "984840f4-7b65-4f50-a6aa-32d079d4716e"
+    },
+    "dataSources": {
+      "mainService": {
+        "uri": "/odata/v4/maverrick/",
+        "type": "OData",
+        "settings": {
+          "annotations": [],
+          "odataVersion": "4.01"
+        }
+      }
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": true,
+    "dependencies": {
+      "minUI5Version": "1.145.0",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "maverickdetection.i18n.i18n"
+        }
+      },
+      "": {
+        "dataSource": "mainService",
+        "preload": true,
+        "settings": {
+          "operationMode": "Server",
+          "autoExpandSelect": true,
+          "earlyRequests": true
+        }
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "controlAggregation": "pages",
+        "controlId": "app",
+        "transition": "slide",
+        "type": "View",
+        "viewType": "XML",
+        "path": "maverickdetection.view",
+        "async": true,
+        "viewPath": "maverickdetection.view"
+      },
+      "routes": [
+        {
+          "name": "RouteMaverickDetection",
+          "pattern": ":?query:",
+          "target": [
+            "TargetMaverickDetection"
+          ]
+        }
+      ],
+      "targets": {
+        "TargetMaverickDetection": {
+          "id": "MaverickDetection",
+          "name": "MaverickDetection"
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "maverickdetection.view.App",
+      "type": "XML",
+      "id": "App",
+      "async": true
+    }
+  }
+}
