@@ -1,1 +1,16 @@
 code,locale,name,descr
+DRAFT,en,Draft,Contract created but not yet submitted for approval
+IN_REVIEW,en,In Review,Contract under review by stakeholders
+APPROVED,en,Approved,Contract approved and ready for execution
+ACTIVE,en,Active,Contract currently in effect
+SUSPENDED,en,Suspended,Contract temporarily put on hold
+EXPIRED,en,Expired,Contract validity period ended
+TERMINATED,en,Terminated,Contract ended before completion
+RENEWED,en,Renewed,Contract renewed for new term
+CLOSED,en,Closed,Contract fully executed and closed
+CANCELLED,en,Cancelled,Contract cancelled before activation
+DRAFT,hi,ड्राफ्ट,अनुमोदन से पहले बनाया गया अनुबंध
+ACTIVE,hi,सक्रिय,वर्तमान में लागू अनुबंध
+EXPIRED,hi,समाप्त,अनुबंध की अवधि समाप्त
+TERMINATED,hi,समाप्त किया गया,समय से पहले समाप्त अनुबंध
+CANCELLED,hi,रद्द,सक्रिय होने से पहले रद्द अनुबंध

@@ -1,1 +1,16 @@
 code,locale,name,descr
+MANUFACTURER,en,Manufacturer,Company that produces goods or equipment
+DISTRIBUTOR,en,Distributor,Company supplying goods to retailers or businesses
+WHOLESALER,en,Wholesaler,Sells goods in bulk quantities
+RETAILER,en,Retailer,Sells goods directly to end customers
+SERVICE_PROVIDER,en,Service Provider,Provides professional or technical services
+CONSULTANT,en,Consultant,Provides advisory or consulting services
+CONTRACTOR,en,Contractor,Handles project-based work and execution
+SUPPLIER,en,Supplier,Provides materials or components
+IMPORTER,en,Importer,Brings goods from foreign markets
+EXPORTER,en,Exporter,Supplies goods to international markets
+MANUFACTURER,hi,निर्माता,वस्तुएं या उपकरण बनाने वाली कंपनी
+DISTRIBUTOR,hi,डिस्ट्रीब्यूटर,व्यवसायों को सामान उपलब्ध कराने वाली कंपनी
+WHOLESALER,hi,थोक विक्रेता,बड़ी मात्रा में सामान बेचता है
+RETAILER,hi,खुदरा विक्रेता,ग्राहकों को सीधे सामान बेचता है
+SERVICE_PROVIDER,hi,सेवा प्रदाता,पेशेवर या तकनीकी सेवाएं प्रदान करता है

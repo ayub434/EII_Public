@@ -1,1 +1,11 @@
 code,name,descr
+NON_PREFERRED_VENDOR,Non-Preferred Vendor,Purchase made from vendor not marked as preferred
+NO_CONTRACT,No Contract,Purchase made without an associated contract
+OFF_CATALOG_ITEM,Off-Catalog Item,Item purchased outside approved catalog
+PRICE_VARIANCE,Price Variance,Item price exceeds contracted price
+OVER_QUANTITY,Over Quantity Ordered,Ordered quantity exceeds allowed contract quantity
+UNAPPROVED_CATEGORY,Unapproved Category,Spend outside approved category
+LATE_APPROVAL,Late Approval,Purchase approved after order placement
+SPLIT_PURCHASE,Split Purchase,Purchase split to bypass approval threshold
+UNAUTHORIZED_VENDOR,Unauthorized Vendor,Vendor not approved for procurement
+MANUAL_OVERRIDE,Manual Override,Policy overridden manually during purchase

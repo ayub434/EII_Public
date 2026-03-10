@@ -1,1 +1,16 @@
 code,locale,name,descr
+INR,en,Indian Rupee,Official currency of India
+USD,en,US Dollar,Official currency of the United States
+EUR,en,Euro,Official currency of Eurozone countries
+GBP,en,British Pound,Official currency of the United Kingdom
+JPY,en,Japanese Yen,Official currency of Japan
+CNY,en,Chinese Yuan,Official currency of China
+AED,en,UAE Dirham,Official currency of United Arab Emirates
+SGD,en,Singapore Dollar,Official currency of Singapore
+AUD,en,Australian Dollar,Official currency of Australia
+CAD,en,Canadian Dollar,Official currency of Canada
+INR,hi,भारतीय रुपया,भारत की आधिकारिक मुद्रा
+USD,hi,अमेरिकी डॉलर,संयुक्त राज्य की आधिकारिक मुद्रा
+EUR,hi,यूरो,यूरोज़ोन देशों की आधिकारिक मुद्रा
+GBP,hi,ब्रिटिश पाउंड,यूनाइटेड किंगडम की आधिकारिक मुद्रा
+JPY,hi,जापानी येन,जापान की आधिकारिक मुद्रा

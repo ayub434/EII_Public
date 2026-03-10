@@ -1,1 +1,11 @@
 code,name,descr
+MANUFACTURER,Manufacturer,Company that produces goods or equipment
+DISTRIBUTOR,Distributor,Company supplying goods to retailers or businesses
+WHOLESALER,Wholesaler,Sells goods in bulk quantities
+RETAILER,Retailer,Sells goods directly to end customers
+SERVICE_PROVIDER,Service Provider,Provides professional or technical services
+CONSULTANT,Consultant,Provides advisory or consulting services
+CONTRACTOR,Contractor,Handles project-based work and execution
+SUPPLIER,Supplier,Provides materials or components
+IMPORTER,Importer,Brings goods from foreign markets
+EXPORTER,Exporter,Supplies goods to international markets

@@ -1,1 +1,16 @@
 code,locale,name,descr
+IT,en,IT Services,Technology and software-related purchases
+OFFICE,en,Office Supplies,General office consumables and materials
+HR,en,HR Services,Recruitment and HR-related services
+MKT,en,Marketing Services,Advertising and promotional services
+CONS,en,Consulting,Professional consulting services
+FAC,en,Facilities,Building and maintenance services
+LOG,en,Logistics,Transport and delivery services
+UTIL,en,Utilities,Electricity water and utility services
+TRAVEL,en,Travel,Business travel and accommodation
+TRAIN,en,Training,Employee learning and development
+IT,hi,आईटी सेवाएं,तकनीकी और सॉफ्टवेयर संबंधित खरीद
+OFFICE,hi,ऑफिस सप्लाई,सामान्य कार्यालय सामग्री
+HR,hi,एचआर सेवाएं,भर्ती और मानव संसाधन सेवाएं
+MKT,hi,मार्केटिंग सेवाएं,विज्ञापन और प्रचार सेवाएं
+CONS,hi,कंसल्टिंग,व्यावसायिक परामर्श सेवाएं

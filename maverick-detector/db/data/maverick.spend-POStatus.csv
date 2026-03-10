@@ -1,1 +1,13 @@
 code,name,descr
+DRAFT,Draft,Purchase order created but not yet submitted
+SUBMITTED,Submitted,Purchase order submitted for approval
+IN_APPROVAL,In Approval,Purchase order under approval workflow
+APPROVED,Approved,Purchase order approved and ready for processing
+REJECTED,Rejected,Purchase order rejected during approval
+RELEASED,Released,Purchase order released to vendor
+IN_PROCESS,In Process,Purchase order being fulfilled
+PARTIALLY_RECEIVED,Partially Received,Some items received from vendor
+FULLY_RECEIVED,Fully Received,All items received successfully
+CLOSED,Closed,Purchase order completed and closed
+CANCELLED,Cancelled,Purchase order cancelled before completion
+ON_HOLD,On Hold,Purchase order temporarily paused

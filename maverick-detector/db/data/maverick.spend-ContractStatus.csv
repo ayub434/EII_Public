@@ -1,1 +1,11 @@
 code,name,descr
+DRAFT,Draft,Contract created but not yet submitted for approval
+IN_REVIEW,In Review,Contract under review by stakeholders
+APPROVED,Approved,Contract approved and ready for execution
+ACTIVE,Active,Contract currently in effect
+SUSPENDED,Suspended,Contract temporarily put on hold
+EXPIRED,Expired,Contract validity period ended
+TERMINATED,Terminated,Contract ended before completion
+RENEWED,Renewed,Contract renewed for new term
+CLOSED,Closed,Contract fully executed and closed
+CANCELLED,Cancelled,Contract cancelled before activation

@@ -1,1 +1,18 @@
 code,locale,name,descr
+DRAFT,en,Draft,Purchase order created but not yet submitted
+SUBMITTED,en,Submitted,Purchase order submitted for approval
+IN_APPROVAL,en,In Approval,Purchase order under approval workflow
+APPROVED,en,Approved,Purchase order approved and ready for processing
+REJECTED,en,Rejected,Purchase order rejected during approval
+RELEASED,en,Released,Purchase order released to vendor
+IN_PROCESS,en,In Process,Purchase order being fulfilled
+PARTIALLY_RECEIVED,en,Partially Received,Some items received from vendor
+FULLY_RECEIVED,en,Fully Received,All items received successfully
+CLOSED,en,Closed,Purchase order completed and closed
+CANCELLED,en,Cancelled,Purchase order cancelled before completion
+ON_HOLD,en,On Hold,Purchase order temporarily paused
+DRAFT,hi,ड्राफ्ट,खरीद आदेश बनाया गया लेकिन जमा नहीं किया गया
+APPROVED,hi,स्वीकृत,खरीद आदेश स्वीकृत और प्रक्रिया के लिए तैयार
+REJECTED,hi,अस्वीकृत,स्वीकृति के दौरान अस्वीकृत
+CLOSED,hi,बंद,खरीद आदेश पूरा और बंद
+CANCELLED,hi,रद्द,पूरा होने से पहले रद्द

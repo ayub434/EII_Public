@@ -1,1 +1,16 @@
 code,locale,name,descr
+NON_PREFERRED_VENDOR,en,Non-Preferred Vendor,Purchase made from vendor not marked as preferred
+NO_CONTRACT,en,No Contract,Purchase made without an associated contract
+OFF_CATALOG_ITEM,en,Off-Catalog Item,Item purchased outside approved catalog
+PRICE_VARIANCE,en,Price Variance,Item price exceeds contracted price
+OVER_QUANTITY,en,Over Quantity Ordered,Ordered quantity exceeds allowed contract quantity
+UNAPPROVED_CATEGORY,en,Unapproved Category,Spend outside approved category
+LATE_APPROVAL,en,Late Approval,Purchase approved after order placement
+SPLIT_PURCHASE,en,Split Purchase,Purchase split to bypass approval threshold
+UNAUTHORIZED_VENDOR,en,Unauthorized Vendor,Vendor not approved for procurement
+MANUAL_OVERRIDE,en,Manual Override,Policy overridden manually during purchase
+NON_PREFERRED_VENDOR,hi,गैर-पसंदीदा विक्रेता,ऐसे विक्रेता से खरीद जो पसंदीदा नहीं है
+NO_CONTRACT,hi,बिना अनुबंध,बिना अनुबंध के की गई खरीद
+OFF_CATALOG_ITEM,hi,कैटलॉग से बाहर,स्वीकृत कैटलॉग के बाहर की गई खरीद
+PRICE_VARIANCE,hi,मूल्य अंतर,अनुबंधित मूल्य से अधिक कीमत
+OVER_QUANTITY,hi,अधिक मात्रा,अनुबंध से अधिक मात्रा में ऑर्डर

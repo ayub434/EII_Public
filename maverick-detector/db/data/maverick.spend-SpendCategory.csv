@@ -1,1 +1,11 @@
 code,name,descr
+IT,IT Services,Technology and software-related purchases
+OFFICE,Office Supplies,General office consumables and materials
+HR,HR Services,Recruitment and HR-related services
+MKT,Marketing Services,Advertising and promotional services
+CONS,Consulting,Professional consulting services
+FAC,Facilities,Building and maintenance services
+LOG,Logistics,Transport and delivery services
+UTIL,Utilities,Electricity water and utility services
+TRAVEL,Travel,Business travel and accommodation
+TRAIN,Training,Employee learning and development
