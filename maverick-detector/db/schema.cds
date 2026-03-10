@@ -2,7 +2,8 @@ namespace maverick.spend;
 
 using { cuid, managed, sap.common.CodeList } from '@sap/cds/common';
 
-entity Vendors : cuid, managed {
+entity Vendors : cuid, managed 
+{
   vendorName        : String(120);
   vendorCode        : String(40);
   vendorType        : Association to VendorType;
@@ -19,7 +20,8 @@ entity Vendors : cuid, managed {
   riskScore         : Decimal(5,2);
 }
 
-entity Contracts : cuid, managed {
+entity Contracts : cuid, managed 
+{
 
   contractNumber        : String(50);
   title                 : String(150);
@@ -69,7 +71,8 @@ entity Contracts : cuid, managed {
           on items.parent = $self;
 }
 
-entity ContractItems : cuid, managed {
+entity ContractItems : cuid, managed 
+{
 
   parent          : Association to Contracts;
 
@@ -91,7 +94,8 @@ entity ContractItems : cuid, managed {
 
 }
 
-entity PurchaseOrders : cuid, managed {
+entity PurchaseOrders : cuid, managed 
+{
 
   poNumber            : String(50);
   title               : String(150);
@@ -138,7 +142,8 @@ entity PurchaseOrders : cuid, managed {
           on items.parent = $self;
 }
 
-entity POItems : cuid, managed {
+entity POItems : cuid, managed 
+{
 
   parent          : Association to PurchaseOrders;
 
