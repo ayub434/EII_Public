@@ -17,7 +17,7 @@
     },
     "dataSources": {
       "mainService": {
-        "uri": "/odata/v4/maverrick/",
+        "uri": "/odata/v4/maverick/",
         "type": "OData",
         "settings": {
           "annotations": [],
@@ -43,7 +43,7 @@
     }
   },
   "sap.ui5": {
-    "flexEnabled": true,
+    "flexEnabled": false,
     "dependencies": {
       "minUI5Version": "1.145.0",
       "libs": {
@@ -82,25 +82,29 @@
     "routing": {
       "config": {
         "routerClass": "sap.m.routing.Router",
-        "controlAggregation": "pages",
-        "controlId": "app",
-        "transition": "slide",
-        "type": "View",
         "viewType": "XML",
-        "path": "maverickdetection.view",
-        "async": true,
-        "viewPath": "maverickdetection.view"
+        "viewPath": "maverickdetection.view",
+        "controlId": "app",
+        "controlAggregation": "pages",
+        "async": true
       },
       "routes": [
         {
           "name": "RouteMaverickDetection",
-          "pattern": ":?query:",
-          "target": [
-            "TargetMaverickDetection"
-          ]
+          "pattern": "",
+          "target": ["TargetApp"]
+        },
+        {
+          "name": "detail",
+          "pattern": "detail/{id}",
+          "target": ["TargetMaverickDetection"]
         }
       ],
       "targets": {
+        "TargetApp": {
+          "id": "App",
+          "name": "App"
+        },
         "TargetMaverickDetection": {
           "id": "MaverickDetection",
           "name": "MaverickDetection"

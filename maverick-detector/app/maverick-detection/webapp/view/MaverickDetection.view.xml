@@ -1,6 +1,25 @@
 <mvc:View controllerName="maverickdetection.controller.MaverickDetection"
-    xmlns:mvc="sap.ui.core.mvc"
-    xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
-    </Page>
+  displayBlock="true"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+>
+<Page
+        id="page"
+        title="{i18n>title}"
+>
+
+      <IconTabHeader mode="Inline">
+        <items>
+            <IconTabFilter key="Vendors" text="Vendors" />
+            <IconTabFilter key="Contracts" text="Contracts"  />
+            <IconTabFilter key="ContractItems" text="ContractItems" />
+            <IconTabFilter key="PurchaseOrders" text="PurchaseOrders" />
+            <IconTabFilter key="POItems" text="POItems"/>
+ 
+        </items>
+      </IconTabHeader>
+    
+        
+</Page>
+
 </mvc:View>

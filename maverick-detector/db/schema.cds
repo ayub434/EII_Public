@@ -187,3 +187,9 @@ entity POStatus : CodeList {
 entity MaverickReason : CodeList {
   key code : String(20);
 }
+  // "i18n": {
+      //   "type": "sap.ui.model.resource.ResourceModel",
+      //   "settings": {
+      //     "bundleName": "maverickdetection.i18n.i18n"
+      //   }
+      // },
